@@ -47,10 +47,15 @@ a {
 #wrapper main {
     width: calc(100% - 200px);
     flex-grow: 1;
+    padding-top: 80px;
 }
 
 #wrapper main header {
     height: 80px;
+    width: calc(100% - 200px);
+    position: fixed;
+    top: 0;
+    right: 0;
 }
 /*
     FOOTER
