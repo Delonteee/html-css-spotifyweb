@@ -42,14 +42,10 @@ a {
 
 #wrapper aside {
     width: 200px;
-
-}
-
-#wrapper aside {
-    width: calc(100% - 200px;)
 }
 
 #wrapper main {
+    width: calc(100% - 200px);
     flex-grow: 1;
 }
 
