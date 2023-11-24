@@ -35,6 +35,28 @@ a {
     text-decoration: none;
 }
 
+.round-image {
+    border-radius: 50%;
+}
+
+
+/*
+    HEADER 
+*/
+header  {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+header div {
+    text-align: right;
+    color: white;
+    padding: 5px 10px;
+    border: 1px solid white;
+    border-radius: 20px;
+    margin-right: 20px;
+}
 
 /*
     WRAPPER
@@ -94,6 +116,8 @@ a {
     padding: 15px;
     margin: 0 10px;
 }
+
+
 /*
     FOOTER
 */
@@ -102,7 +126,42 @@ footer {
     height: 100px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
+
+footer .song {
+    display: flex;
+    align-items: center;
+}
+
+footer .song .album {
+    margin: 0 20px;
+}
+
+footer .song .album img {
+    width: 50px;
+}
+
+footer .playback .controls{
+    display: flex;
+}
+
+footer .playback .controls > * {
+    margin: 0 10px;
+}
+
+footer .playback .progression {
+    display: flex;
+}
+
+footer .volume{
+    display: flex;
+}
+
+footer .volume > * {
+    margin: 0 10px;
+}
+
 
 /*
     MEDIA QUERIES
